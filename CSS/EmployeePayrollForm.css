@@ -1,3 +1,7 @@
+{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     height: 100%;
@@ -5,7 +9,7 @@ body {
 
 .header {
     padding: 15px 0;
-    background-color: #ffffff;
+    background-color: aliceblue;
 }
 
 .header-content {
@@ -44,6 +48,7 @@ body {
 * {
     box-sizing: border-box;
 }
+
 /*UC2*/
 
 .form-content{
@@ -209,7 +214,8 @@ select {
       align-items: flex-start;
     }
   }
-    /* UC7 */
+
+  /* UC7 */
 a.button:hover {
     background: rgb(224, 73, 73);
     color: white;
